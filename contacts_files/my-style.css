@@ -8,9 +8,20 @@
     display: flex;
     flex-direction: column;
   }
-
-  .ico-tools {
+  .col2,
+  .col3,
+  .ico-tools,
+  .site-map-wrap,
+  .content {
     display: none;
+  }
+
+  .l-footer-empty {
+    height: 15em;
+}
+
+.l-footer-wrap {
+    height: 10em;
   }
 
   .l-header .col {
@@ -40,11 +51,95 @@
     width: 100%;
   }
 
+  .menu-open--htx, .menu-open--htx.is-active {
+    background-color: #0364ab;
+}
+
+.menu-open {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    height: 35px;
+    font-size: 0;
+    text-indent: -9999px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: none;
+    border: 0;
+    cursor: pointer;
+    background-color: #0364ab;
+    -webkit-transition: background .3s;
+    transition: background .3s;
+    width: 24px;
+    position: absolute;
+    top: 13px;
+    right: 30px;
+  }
+
+  .menu-open--htx span {
+    transition: background 0s .3s;
+}
+.menu-open span {
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: #ffffff;
+}
+
+.menu-open span::after,
+.menu-open span::before {
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    content: "";
+}
+
+.menu-open span::before {
+    top: -7px;
+}
+
+.menu-open span::after {
+    bottom: -7px;
+}
+
+.l-outer-col2 .container-inner {
+    margin: 0 !important;
+}
+
   @media (min-width: 576px) {}
 
-  @media (min-width: 768px) {}
+  @media (min-width: 768px) {
+    .main-menu ul {
+      flex-direction: row;
+    }
+    .menu-open {
+      display: none;
+    }
 
-  @media (min-width: 998px) {}
+    .main-menu ul li {
+      border-left: 1px solid #034f9a;
+      align-items: center;
+    }
+
+    .main-menu ul li a {
+        border-left: 1px solid #0174b8;
+        padding: 0 5px;
+    }
+
+    .menu-wrapper {
+    flex-direction: row;
+  }
+  }
+
 
   @media (min-width: 998px) {
     .main-menu ul {
@@ -54,12 +149,7 @@
     }
 
     .main-menu ul li {
-      display: table-cell;
-      border-left: 1px solid #034f9a
-    }
-
-    .ico-tools {
-      display: block;
+        display: table-cell;
     }
 
     .menu-wrapper {
@@ -84,4 +174,23 @@
     .main-menu ul li a {
         border-left: 1px solid #0174b8
     }
+
+    .l-outer-col2 .container-inner {
+    margin: 0 0 0 182px !important;
+}
+.col2,
+.col3,
+.ico-tools,
+.content,
+.site-map-wrap {
+  display: block;
+}
+
+.l-footer-empty {
+  height: 60.5em;
+}
+
+.l-footer-wrap {
+  height: 53.5em;;
+}
   }
