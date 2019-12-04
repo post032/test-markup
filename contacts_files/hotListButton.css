@@ -1,0 +1,19 @@
+.hotListButton {
+    position: fixed;
+    bottom: 0;
+    left: 40%;
+    z-index: 100000;
+    padding: 10px 15px;
+    background: yellow;
+    border: 1px solid #afafaf;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 0;
+    color: #004891 !important;
+    font-weight: bold;
+    text-decoration: none !important;
+    -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.5)
+}

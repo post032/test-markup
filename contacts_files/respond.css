@@ -1,0 +1,78 @@
+@media screen and (max-width: 1220px) {
+    #FoodGardenHeader .top {
+        width: 370px !important
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .l-header .user-bar {
+        padding: 8px 10px 0 10px !important
+    }
+
+    .main-menu ul {
+        font-size: 1em
+    }
+
+    .main-menu li .active a:link, .main-menu li .active a:visited, .main-menu li .active a:hover, .main-menu li .active a:active, .main-menu ul li a {
+        font-weight: normal
+    }
+
+    .main-menu ul ul {
+        top: 4.72em
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .menu-wrapper .main-menu ul ul {
+        top: 4.41em
+    }
+
+    .menu-wrapper .main-menu ul .active ul li {
+        display: none
+    }
+
+    .menu-wrapper .main-menu ul .active ul .select-item, .menu-wrapper .main-menu ul .active ul .btn-item {
+        display: inline-block !important;
+        vertical-align: middle
+    }
+
+    .menu-wrapper .main-menu ul ul .btn-item a {
+        margin-top: 0 !important
+    }
+
+    .trade .table-list .td-name {
+        padding-left: 9px
+    }
+
+    .trade .table-list .td-name-photo {
+        background-image: none
+    }
+
+    .trade .table-list .td-user .wrap-user {
+        width: 12em
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .l-header .col {
+        float: none
+    }
+
+    .menu-wrapper .main-menu {
+        margin: 0
+    }
+
+    .menu-wrapper .main-search {
+        float: left;
+        margin: 0 0 0 -15em
+    }
+
+    .main-menu .more div {
+        right: 0
+    }
+
+    .ico-tools {
+        top: 31%;
+        left: 10px
+    }
+}

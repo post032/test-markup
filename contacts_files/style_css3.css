@@ -1,0 +1,155 @@
+.cssgradients .menu-wrapper .main-search {
+    background-image: none
+}
+
+.cssgradients .m16_corner_2 {
+    background-image: linear-gradient(top, #fffad6 0, #fff2bc 100%);
+    background-image: -o-linear-gradient(top, #fffad6 0, #fff2bc 100%);
+    background-image: -moz-linear-gradient(top, #fffad6 0, #fff2bc 100%);
+    background-image: -webkit-linear-gradient(top, #fffad6 0, #fff2bc 100%);
+    background-image: -ms-linear-gradient(top, #fffad6 0, #fff2bc 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fffad6), color-stop(1, #fff2bc))
+}
+
+.cssgradients .form-modal-login .i-submit input {
+    background: -moz-linear-gradient(top, #fdfdfd 0, #ccc 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fdfdfd), color-stop(100%, #ccc));
+    background: -webkit-linear-gradient(top, #fdfdfd 0, #ccc 100%);
+    background: -o-linear-gradient(top, #fdfdfd 0, #ccc 100%);
+    background: -ms-linear-gradient(top, #fdfdfd 0, #ccc 100%);
+    background: linear-gradient(to bottom, #fdfdfd 0, #ccc 100%)
+}
+
+.cssgradients .form-modal-login .i-submit input:hover {
+    background: -moz-linear-gradient(top, #e8e8e8 0, #b4b4b4 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #e8e8e8), color-stop(100%, #b4b4b4));
+    background: -webkit-linear-gradient(top, #e8e8e8 0, #b4b4b4 100%);
+    background: -o-linear-gradient(top, #e8e8e8 0, #b4b4b4 100%);
+    background: -ms-linear-gradient(top, #e8e8e8 0, #b4b4b4 100%);
+    background: linear-gradient(to bottom, #e8e8e8 0, #b4b4b4 100%)
+}
+
+.cssgradients .main-menu .btn-add:hover, .cssgradients .main-menu .btn-add:active {
+    background: -moz-linear-gradient(top, #67bb39 0, #4c8b2a 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #67bb39), color-stop(100%, #4c8b2a));
+    background: -webkit-linear-gradient(top, #67bb39 0, #4c8b2a 100%);
+    background: -o-linear-gradient(top, #67bb39 0, #4c8b2a 100%);
+    background: -ms-linear-gradient(top, #67bb39 0, #4c8b2a 100%);
+    background: linear-gradient(to bottom, #67bb39 0, #4c8b2a 100%)
+}
+
+.cssgradients .main-menu .btn-add-second:hover, .cssgradients .main-menu .btn-add-second:active {
+    background: -moz-linear-gradient(top, #04aa89 0, #02896c 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #04aa89), color-stop(100%, #02896c));
+    background: -webkit-linear-gradient(top, #04aa89 0, #02896c 100%);
+    background: -o-linear-gradient(top, #04aa89 0, #02896c 100%);
+    background: -ms-linear-gradient(top, #04aa89 0, #02896c 100%);
+    background: linear-gradient(to bottom, #04aa89 0, #02896c 100%)
+}
+
+.cssgradients .usermenu a.user-link:link, .cssgradients .usermenu a.user-link:visited, .cssgradients .usermenu a.user-link:link em, .cssgradients .usermenu a.user-link:visited em {
+    background: -moz-linear-gradient(top, #fff 0, #dbdbdb 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(100%, #dbdbdb));
+    background: -webkit-linear-gradient(top, #fff 0, #dbdbdb 100%);
+    background: -o-linear-gradient(top, #fff 0, #dbdbdb 100%);
+    background: -ms-linear-gradient(top, #fff 0, #dbdbdb 100%);
+    background: linear-gradient(to bottom, #fff 0, #dbdbdb 100%)
+}
+
+.cssgradients .usermenu a.user-link:hover, .cssgradients .usermenu a.user-link:active, .cssgradients .usermenu a.user-link:hover em, .cssgradients .usermenu a.user-link:active em {
+    background: -moz-linear-gradient(top, #f9f9f9 0, #d1d1d1 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f9f9f9), color-stop(100%, #d1d1d1));
+    background: -webkit-linear-gradient(top, #f9f9f9 0, #d1d1d1 100%);
+    background: -o-linear-gradient(top, #f9f9f9 0, #d1d1d1 100%);
+    background: -ms-linear-gradient(top, #f9f9f9 0, #d1d1d1 100%);
+    background: linear-gradient(to bottom, #f9f9f9 0, #d1d1d1 100%)
+}
+
+.cssgradients .usermenu-opened a.user-link:link, .cssgradients .usermenu-opened a.user-link:visited, .cssgradients .usermenu-opened a.user-link:link em, .cssgradients .usermenu-opened a.user-link:visited em {
+    background: -moz-linear-gradient(top, #dbdbdb 0, #fff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #dbdbdb), color-stop(100%, #fff));
+    background: -webkit-linear-gradient(top, #dbdbdb 0, #fff 100%);
+    background: -o-linear-gradient(top, #dbdbdb 0, #fff 100%);
+    background: -ms-linear-gradient(top, #dbdbdb 0, #fff 100%);
+    background: linear-gradient(to bottom, #dbdbdb 0, #fff 100%)
+}
+
+.borderradius .menu-wrapper .main-search, .borderradius .menu-wrapper .main-search .i-text input {
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -khtml-border-radius: 0 !important;
+    border-radius: 0 !important
+}
+
+.borderradius .m16_corner_3 {
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    border-radius: 8px
+}
+
+.borderradius .m16_corner_2 {
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px
+}
+
+.borderradius #user-dashboard.unauth {
+    -moz-border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    -khtml-border-radius: 6px 6px 0 0;
+    border-radius: 6px 6px 0 0
+}
+
+.borderradius .rating-wrap {
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px
+}
+
+.borderradius .form-modal-login, .borderradius .usermenu .profile_menu a {
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -khtml-border-radius: 0;
+    border-radius: 0
+}
+
+.borderradius .main-menu .btn-add, .borderradius .main-menu .active .active a, .borderradius .form-modal-login .i-submit input, .borderradius .usermenu .user-link, .borderradius .usermenu .events-count, .borderradius #profile_menu .events-count, .borderradius .btn-ok {
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px
+}
+
+.boxshadow .main-menu .active {
+    -webkit-box-shadow: inset -1px -1px 6px 1px #c2c6ca;
+    box-shadow: inset -1px -1px 6px 1px #c2c6ca
+}
+
+.boxshadow .main-menu li .active {
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.boxshadow .main-menu .more ul {
+    -webkit-box-shadow: 0 -1px 0 0 #218fbe;
+    -moz-box-shadow: 0 -1px 0 0 #218fbe;
+    box-shadow: 0 -1px 0 0 #218fbe
+}
+
+.boxshadow .user-bar {
+    -webkit-box-shadow: 0 3px 3px 0 #cecece;
+    box-shadow: 0 3px 3px 0 #cecece
+}
+
+.boxshadow .main-search .i-text input {
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+.boxshadow .usermenu-opened #profile_menu {
+    -webkit-box-shadow: 3px 3px 10px 0 #7f7f7f;
+    box-shadow: 3px 3px 10px 0 #7f7f7f
+}

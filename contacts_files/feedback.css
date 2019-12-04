@@ -1,0 +1,102 @@
+.contacts-wrap {
+    font-size: 1em !important
+}
+
+.contacts-wrap h2 {
+    margin-bottom: -0.6em
+}
+
+.contacts-wrap h3 {
+    margin: 3em 0 1.25em 0;
+    font: bold 1em Arial, Verdana, sans-serif !important
+}
+
+.contacts-wrap p {
+    margin: 6px 0 !important
+}
+
+.contacts-wrap p span {
+    display: inline-block;
+    width: 16em;
+    vertical-align: top
+}
+
+.contacts-wrap p strong {
+    display: inline-block;
+    width: 74%;
+    font-weight: normal;
+    vertical-align: top
+}
+
+.contacts-wrap p span.user.userpic {
+    float: none;
+    width: auto;
+    line-height: 32px
+}
+
+.contacts-wrap .user-profile span, .contacts-wrap .user-profile strong {
+    vertical-align: middle
+}
+
+.contacts-wrap .user-profile span a:link, .contacts-wrap .user-profile span a:visited, .contacts-wrap .user-profile span a:hover, .contacts-wrap .user-profile span a:active {
+    text-decoration: none
+}
+
+.contacts-wrap form.uf fieldset {
+    width: 80%;
+    padding: 1px 14px;
+    background-color: #fbfac8
+}
+
+.contacts-wrap form.uf fieldset .clear {
+    overflow: visible;
+    float: none;
+    clear: both
+}
+
+.contacts-wrap form.uf fieldset label.left-side {
+    width: auto;
+    font-size: 1em;
+    text-align: left
+}
+
+.contacts-wrap form.uf fieldset .right-side {
+    position: relative;
+    margin-left: 138px
+}
+
+.contacts-wrap form.uf fieldset .right-side input.width-all, .contacts-wrap form.uf fieldset .right-side textarea.width-all, .contacts-wrap form.uf fieldset .right-side select.width-all {
+    width: 97%;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 1em;
+    border: 1px solid #666;
+    background-color: #fff
+}
+
+.contacts-wrap form.uf fieldset .right-side select.width-all {
+    float: none;
+    width: 99.5%;
+    padding: 0
+}
+
+.contacts-wrap form.uf fieldset .right-side select.width-all option {
+    border: 0 none
+}
+
+.contacts-wrap form.uf fieldset .right-side .focus {
+    background-color: #fff !important
+}
+
+.contacts-wrap form.uf fieldset .right-side p.error {
+    position: absolute;
+    top: 0;
+    right: -190px;
+    width: 15em;
+    font-size: .83em
+}
+
+.contacts-wrap form.uf fieldset .textarea-wrap p.error {
+    top: 50%;
+    margin-top: -2% !important
+}
